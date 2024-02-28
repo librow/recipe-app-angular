@@ -6,11 +6,4 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.sass'
 })
 export class AppComponent {
-  name = 'Lilia';
-
-  loadedFeature = 'recipes';
-
-  onNavigate(feature: string) {
-    this.loadedFeature = feature;
-  }
 }
